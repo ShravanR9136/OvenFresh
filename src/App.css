@@ -1,0 +1,20 @@
+.App {
+  text-align: left;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Loading state for images */
+img {
+  background: #f0f0f0;
+}
+
+/* Focus styles for accessibility */
+button:focus,
+a:focus {
+  outline: 2px solid #e91e63;
+  outline-offset: 2px;
+}
