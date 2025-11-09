@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import BakeryLanding from './components/Bakerylanding';
+import BakeryLanding from './components/BakeryLanding';
 
 function App() {
   return (
