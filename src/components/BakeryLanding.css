@@ -1,4 +1,3 @@
-/* Modern CSS Reset */
 * {
   margin: 0;
   padding: 0;
@@ -37,14 +36,13 @@ body {
   padding: 0 20px;
 }
 
-/* Fix Background-Clip Compatibility */
 .logo-icon {
   font-size: 2rem;
   background: linear-gradient(135deg, var(--primary), var(--accent));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  color: var(--primary); /* Fallback for browsers that don't support background-clip */
+  color: var(--primary); 
 }
 
 .highlight {
@@ -55,7 +53,6 @@ body {
   color: var(--secondary); /* Fallback */
 }
 
-/* Modern Header */
 .header {
   background: linear-gradient(135deg, rgba(254, 181, 236, 0.9) 0%, rgba(187, 124, 250, 0.9) 100%);
   backdrop-filter: blur(20px);
@@ -94,7 +91,7 @@ body {
   font-weight: 500;
 }
 
-/* Navigation */
+
 .nav {
   display: flex;
   align-items: center;
@@ -153,7 +150,7 @@ body {
   width: 250px;
   transition: all 0.3s ease;
   background: var(--gray-light);
-  background-clip: padding-box; /* Ensure background doesn't bleed into border */
+  background-clip: padding-box; 
 }
 
 .search-bar input:focus {
@@ -197,7 +194,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-clip: padding-box; /* Ensure clean edges */
+  background-clip: padding-box; 
 }
 
 .cart-btn:hover {
@@ -234,8 +231,7 @@ body {
   z-index: 1000;
   margin-top: 1rem;
   border: 1px solid var(--gray);
-  background-clip: padding-box; /* Prevent background bleed */
-}
+  background-clip: padding-box; 
 
 .cart-header {
   display: flex;
@@ -351,13 +347,13 @@ body {
   transition: all 0.3s ease;
 }
 
-/* Hero Section */
+
 .hero {
   position: relative;
   padding: 140px 0 80px;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   overflow: hidden;
-  background-clip: border-box; /* Standard property */
+  background-clip: border-box;
 }
 
 .hero-background {
@@ -449,7 +445,7 @@ body {
   margin-top: 2rem;
 }
 
-/* Hero Image with Floating Cards */
+
 .hero-image {
   position: relative;
   height: 400px;
@@ -527,7 +523,7 @@ body {
   50% { transform: translateY(-30px); }
 }
 
-/* Buttons */
+
 .btn {
   display: inline-flex;
   align-items: center;
@@ -679,7 +675,7 @@ body {
   color: var(--text-light);
 }
 
-/* Menu Section */
+
 .menu-section {
   padding: 80px 0;
   background: var(--white);
@@ -906,7 +902,7 @@ body {
   text-align: right;
 }
 
-/* Contact Section */
+
 .contact-section {
   padding: 80px 0;
   background: var(--white);
